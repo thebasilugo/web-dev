@@ -1,0 +1,17 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1200px;
+}
+.row{
+    flex-shrink: 0;
+	/* display:flex; */
+    width: 30%;
+    max-width: 50%;
+}
+
+.image{
+	height: 69%;
+	border-radius: 40%;
+}
+/* navbar-toggler.dropdown{
+	position: relative;
+} */
