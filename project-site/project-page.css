@@ -1,17 +1,25 @@
+body{
+	background-color: #B4A5A5;
+}
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1200px;
+	text-align: center;
 }
-.row{
-    flex-shrink: 0;
-	/* display:flex; */
-    width: 30%;
-    max-width: 50%;
+.info-body{
+    background-color: #082032;
 }
-
-.image{
-	height: 69%;
-	border-radius: 40%;
+.image {
+    height: 54%;
+    border-radius: 20%;
+    width: auto;
 }
-/* navbar-toggler.dropdown{
-	position: relative;
-} */
+p{
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
