@@ -1,0 +1,35 @@
+body{
+	text-align: center;
+	margin: 0;
+	position: relative;
+	background-color: #251D3A;
+	color: black;
+}
+img{
+	size: 50px;	
+}
+.top{
+	background-color: #33293c;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color: lightgray;
+	font-family: courier;
+}
+.ug_profile{
+	background-color: #cad559;
+	height: 500px;
+	width: 700px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 9px;
+}
+.josef_profile{
+	color: white;
+	background-color: #6b8597;
+	height: 500px;
+	width: 700px;
+	display: inline-block;
+	font-family: 'sacramento', cursive;
+	padding-bottom: 9px;
+}
