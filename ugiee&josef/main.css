@@ -5,6 +5,9 @@ body{
 	background-color: #251D3A;
 	color: black;
 }
+.container{
+background-color: black;
+}
 img{
 	size: 50px;	
 }
