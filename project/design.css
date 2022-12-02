@@ -17,6 +17,66 @@ body{
     background-color: #082032;
 }
 
+/* aside */
+
+/* aside.about {
+    float: right;
+    width: 248px;
+    background-color: rgb(0, 0, 0);
+    color: #eed;
+    margin: 3pt 6pt 3pt 6pt;
+    padding: 6pt 0;
+}
+
+aside h1 { font-size: 110%; }
+aside h2 { font-size: 95%; }
+aside p {
+    margin: 0 12pt;
+    font-family: tahoma, sans-serif;
+    font-style: italic;
+    font-size: 85%;
+}
+
+aside section h1 {
+    padding-top: 3pt;
+    border-top: 4px solid #fd0;
+}
+
+aside header p {
+    font-size: 85%;
+}
+
+aside section {
+    padding: 5px 0;
+} */
+
+/* article */
+
+section.buy, article{
+    /* width: 625px; */
+    margin-right: 5px;
+    margin-left: 5px;
+    float: none;
+    text-align: justify;
+}
+
+article h1 {
+    font-size: 110%;
+    /* margin-top: 12pt; */
+    margin-bottom: 0;
+    padding-top: 8pt;
+    border-top: 4px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+article p {
+    font-family: tahoma, sans-serif;
+}
+
+article mark {
+    background-color: #fd0;
+}
+
 /* a links */
 a{
     text-decoration: none;
@@ -26,23 +86,50 @@ p a:hover{
     text-decoration: underline;
 }
 
+p{
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.clear {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
 .image {
     height: 54%;
     border-radius: 20%;
     width: auto;
 }
 
-p{
-    margin-top: 0;
-    margin-bottom: 0rem;
+img.img-right {
+    display: block;
+    float: right;
+    border: solid 2px #555;
+    padding: 2px;
+    margin: 3px 6pt 3px 5px;
 }
 
-.left{
-	float:left
+/* figure */
+
+figure {
+    border: solid 2px #555;
+    padding: 2px;
+    margin: 3px 5px 3px 12pt;
+    background-color: #eed;
 }
 
-.right{
-	float: right;
+figure.left {
+    float: left;
+}
+
+figure.right {
+    float: right;
+}
+
+figure img {
+    display: block;
 }
 
 .accordion-body{
@@ -56,7 +143,7 @@ p{
     box-shadow: 8px 8px 5px #444;
     padding: 8px 12px;
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-  }
+}
 
 footer {
     background: #333;
