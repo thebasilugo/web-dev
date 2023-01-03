@@ -1,0 +1,21 @@
+/* Add a colored background to the website */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add a gradient effect to the website header */
+  header {
+    background: linear-gradient(to right, #e66465, #9198e5);
+  }
+  
+  /* Add a border and shadow effect to the website cards */
+  .card {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Add a hover effect to the website cards */
+  .card:hover {
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+  }
+  
