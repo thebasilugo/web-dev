@@ -1,4 +1,9 @@
-/* Add a colored background to the website */
+    /* For responsiveness, adjust the styling based on the width of the device */
+@media only screen and (max-width: 600px) {
+    /* styles for devices with a width less than 600px */
+  }
+
+  /* Add a colored background to the website */
 body {
     background-color: #f2f2f2;
   }
